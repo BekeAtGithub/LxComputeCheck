@@ -3,9 +3,9 @@
 #include <chrono>
 #include <thread>
  
-// Function to read CPU usage from /proc/stat
+// Function to read CPU usage from /proc/stat .
 double ComputeCheck() {
-    std::ifstream statFile("/proc/stat");
+    std::ifstream statFile("/proc/stat"); \
     std::string line;
 
     // Read the first line
